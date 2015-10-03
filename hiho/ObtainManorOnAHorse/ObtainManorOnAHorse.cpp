@@ -56,8 +56,6 @@ int main()
     }
  
     cout << ans << endl;
-	cout << X << endl << Y << endl;
-    //system(pause);
  
     return 0;
 }

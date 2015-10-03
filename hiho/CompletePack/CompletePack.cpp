@@ -20,6 +20,21 @@ int dp(vector<int>& need,vector<int> value, int M, int N)
 	}
 	return res[M][N];
 }
+int dp(vector<int>& need, vector<int>& value, vector<vector<int>>&res, int M, int N)
+{
+	
+	if(res[M][N] != -1) return res[M][N];
+	if(N < need[M]) 
+	{
+		res[M][N] = dp(need, value, res, M - 1, N);
+		return res[M][N];
+	}
+	else
+	{
+		res[M][N] = max(dp(need, value, res, M - 1, N), dp(need, value, res, M, N - need[M]) + value[M]);
+		return res[M][N];
+	}
+}
 int main(void)
 {
 	int M = 0, N = 0;
@@ -31,7 +46,13 @@ int main(void)
 		{
 			cin >> need[i+1] >> value[i+1];
 		}
-		cout << dp(need, value, M, N) << endl;
+		//cout << dp(need, value, M, N) << endl;
+		vector<vector<int>> res(M + 1, vector<int>(N + 1, -1));
+		res[0] = vector<int>(N + 1, 0);
+		for(int i = 0; i < M + 1; i ++)
+			res[i][0] = 0;
+		dp(need, value, res, M, N);
+		cout << res[M][N] << endl;
 	}
 	
 	return 0;
