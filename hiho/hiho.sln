@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObtainManorOnAHorse", "Obta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NationalDayTravel", "NationalDayTravel\NationalDayTravel.vcxproj", "{4261890C-9019-4557-87E8-F6465C537787}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Elfin", "Elfin\Elfin.vcxproj", "{4AB21048-49ED-4645-80E5-049556327618}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HaveLunchTogether", "HaveLunchTogether\HaveLunchTogether.vcxproj", "{EF048052-023E-4826-9925-F1883E59698D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -49,6 +53,14 @@ Global
 		{4261890C-9019-4557-87E8-F6465C537787}.Debug|Win32.Build.0 = Debug|Win32
 		{4261890C-9019-4557-87E8-F6465C537787}.Release|Win32.ActiveCfg = Release|Win32
 		{4261890C-9019-4557-87E8-F6465C537787}.Release|Win32.Build.0 = Release|Win32
+		{4AB21048-49ED-4645-80E5-049556327618}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4AB21048-49ED-4645-80E5-049556327618}.Debug|Win32.Build.0 = Debug|Win32
+		{4AB21048-49ED-4645-80E5-049556327618}.Release|Win32.ActiveCfg = Release|Win32
+		{4AB21048-49ED-4645-80E5-049556327618}.Release|Win32.Build.0 = Release|Win32
+		{EF048052-023E-4826-9925-F1883E59698D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF048052-023E-4826-9925-F1883E59698D}.Debug|Win32.Build.0 = Debug|Win32
+		{EF048052-023E-4826-9925-F1883E59698D}.Release|Win32.ActiveCfg = Release|Win32
+		{EF048052-023E-4826-9925-F1883E59698D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
