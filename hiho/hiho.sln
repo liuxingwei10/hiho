@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Elfin", "Elfin\Elfin.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HaveLunchTogether", "HaveLunchTogether\HaveLunchTogether.vcxproj", "{EF048052-023E-4826-9925-F1883E59698D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{126E3331-DFAB-4919-8710-2E1283F7C574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -61,6 +63,10 @@ Global
 		{EF048052-023E-4826-9925-F1883E59698D}.Debug|Win32.Build.0 = Debug|Win32
 		{EF048052-023E-4826-9925-F1883E59698D}.Release|Win32.ActiveCfg = Release|Win32
 		{EF048052-023E-4826-9925-F1883E59698D}.Release|Win32.Build.0 = Release|Win32
+		{126E3331-DFAB-4919-8710-2E1283F7C574}.Debug|Win32.ActiveCfg = Debug|Win32
+		{126E3331-DFAB-4919-8710-2E1283F7C574}.Debug|Win32.Build.0 = Debug|Win32
+		{126E3331-DFAB-4919-8710-2E1283F7C574}.Release|Win32.ActiveCfg = Release|Win32
+		{126E3331-DFAB-4919-8710-2E1283F7C574}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
